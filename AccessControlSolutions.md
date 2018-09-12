@@ -1,10 +1,10 @@
 # Access Controls
 
 ## Access the administration section of the store.
-Login and manually try URLS
-URL = http://localhost:3000/#/administration
-Or 
-view the juice-shop.min.js and find the /administration route in the js
+* Login and manually try URLS
+* URL = http://localhost:3000/#/administration
+* Or 
+* view the juice-shop.min.js and find the /administration route in the js
 
 
 
@@ -12,8 +12,8 @@ view the juice-shop.min.js and find the /administration route in the js
 Delete five-stars from the adminstration page
 
 ## Post some feedback in another users name.	
-Intercept a review request http://localhost:3000/rest/product/23/reviews
-Modify json with different users email `{"message":"Fake Review","author":"morty@juice-sh.op"}`
+*Intercept a review request http://localhost:3000/rest/product/23/reviews
+*Modify json with different users email `{"message":"Fake Review","author":"morty@juice-sh.op"}`
 *The score-board check isn't working*
 
 
@@ -24,14 +24,14 @@ Modify json with different users email `{"message":"Fake Review","author":"morty
 ## IDOR Solutions
 
 ## Access someone else's basket. JuiceShop
-Add items to basket
-Intercept Request to view basket 
-http://localhost:3000/rest/basket/4
-IDOR change number to 1
-Other users basket is displayed
+* Add items to basket
+* Intercept Request to view basket 
+* http://localhost:3000/rest/basket/4
+* IDOR change number to 1
+* Other users basket is displayed
 
 ## Account History http://demo.testfire.net/bank/account.aspx
-intruder
+Use Burp Intruder
 ```
 POST /bank/account.aspx HTTP/1.1
 Host: demo.testfire.net
@@ -51,6 +51,7 @@ Connection: close
 listAccounts=10011601§40§
 
 ```
+#### Intruder settings
 * Sniper
 * Payload Type Number
 * from 40 to 99
