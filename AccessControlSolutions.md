@@ -60,5 +60,5 @@ listAccounts=10011601§40§
 ### Make jsmith filthy rich
 * in the the transaction page do `1 or 1 =1;-- ` to list all transactions
 * accounts 20 and 21 are always sending money back and forth
-* intercept a transfer and send money from account 20 to jsmiths account. 
+* make a transfer but intercept with burp and send money from account 20 to jsmiths account. 
 
