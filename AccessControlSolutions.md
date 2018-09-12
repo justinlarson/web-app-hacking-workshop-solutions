@@ -11,10 +11,13 @@
 ## Get rid of all 5-star customer feedback.
 Delete five-stars from the adminstration page
 
-## Post some feedback in another users name.	
-*Intercept a review request http://localhost:3000/rest/product/23/reviews
-*Modify json with different users email `{"message":"Fake Review","author":"morty@juice-sh.op"}`
-*The score-board check isn't working*
+## Post some feedback or review in another users name.
+### for review
+* Intercept a review request http://localhost:3000/rest/product/23/reviews
+* Modify json with different users email `{"message":"Fake Review","author":"morty@juice-sh.op"}`
+### for feedback
+
+Either edit input in the dom or intercept from `/api/Feedbacks/` with burp and change the `UserId` 
 
 
 ## Change the href of the link within the O-Saft product description into http://kimminich.de.
