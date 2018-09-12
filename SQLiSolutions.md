@@ -1,4 +1,4 @@
-## sqli solutions 
+## SQLi Solutions 
 ### Bypass Login and dump tables http://demo.testfire.net/bank/login.aspx
 ```
 POST /bank/login.aspx HTTP/1.1
