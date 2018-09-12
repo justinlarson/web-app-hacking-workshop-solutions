@@ -1,6 +1,8 @@
 ## Access the administration section of the store.
 Login and manually try URLS
 URL = http://localhost:3000/#/administration
+Or 
+view the juice-shop.min.js and find the /administration route in the js
 
 ## Access someone else's basket.
 Add items to basket
