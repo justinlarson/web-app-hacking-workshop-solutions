@@ -3,6 +3,12 @@ URL: dvws/vulnerabilities/wsdlenum/service.php?wsdl
 
 check_user_id with value root
 
+### WSDL Scanning 
+* Load the check_user_information envelope into Intruder
+* select username space 
+* add username lists to payload
+
+
 ### XML External Entity Injection
 URL : /dvws/vulnerabilities/xxe/
 
@@ -29,4 +35,4 @@ URL: /dvws/vulnerabilities/xpath/xpath.php
 username: foo' or 1=1 or 'a'='a 
 password: bar
 
-### WSDL Scanning 
+
