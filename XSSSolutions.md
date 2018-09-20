@@ -1,3 +1,6 @@
+# XSS
+## Juice Shop
+
 ### Perform a reflected XSS attack with <script>alert("XSS")</script>.
 * Search
 * Track Orders
@@ -20,3 +23,17 @@
 * Bearer ? as Authorization header, replacing the ? with the token you copied from the browser.
 
 #### Perform a persisted XSS attack with <script>alert("XSS")</script> bypassing a server-side security mechanism.
+* Download http://localhost:3000/ftp/package.json.bak%2500.md
+* change to package.json
+* run dependency-check against the package.json
+* sanitize:1.4.2 has a xss vuln. https://github.com/punkave/sanitize-html/issues/29
+* Visit http://localhost:3000/#/contact.
+* Enter <<script>XSS</script>script>alert("XSS")<</script>/script> as Comment
+* Choose a rating and click Submit
+* Visit http://localhost:3000/#/about for a first "XSS" alert (from the Customer Feedback slideshow)
+
+
+
+## Altoro Mutual
+#### Reflective XSS
+* Search 
