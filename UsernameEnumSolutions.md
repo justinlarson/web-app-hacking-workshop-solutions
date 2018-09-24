@@ -1,4 +1,10 @@
 
+# AltoroMutual
+## Login
+* Use CommonUsernameList.txt
+* Use grep options in intruder `Login Failed: Your password appears to be invalid.`
+* create list of altoro users
+
 # Juice Shop
 ## User Registration
 * http://localhost:3000/api/Users/
@@ -12,8 +18,5 @@
 * http://localhost:3000/rest/user/security-question?email=justin@email.com
 * if the account exists the respone returns the users secret question
 
-# AltoroMutual
-## Login
 
- 
 
