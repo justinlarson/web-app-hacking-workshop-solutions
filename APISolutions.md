@@ -1,7 +1,3 @@
-### WSDL Enumeration
-URL: dvws/vulnerabilities/wsdlenum/service.php?wsdl
-
-check_user_id with value root
 
 ### WSDL Scanning 
 * Load the check_user_information envelope into Intruder
