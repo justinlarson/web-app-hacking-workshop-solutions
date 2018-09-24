@@ -1,4 +1,9 @@
 # XSS
+
+## Altoro Mutual
+#### Reflective XSS
+* Search for `<svg/onload=alert(1)>`
+
 ## Juice Shop
 
 ### Perform a reflected XSS attack with <script>alert("XSS")</script>.
@@ -34,6 +39,4 @@
 
 
 
-## Altoro Mutual
-#### Reflective XSS
-* Search 
+
