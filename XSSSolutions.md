@@ -7,10 +7,9 @@
 ## Juice Shop
 
 ### Perform a reflected XSS attack with <script>alert("XSS")</script>.
-* Search
 * Track Orders
 ### Perform a DOM XSS attack with <script>alert("XSS")</script>.	
-
+* Search
 #### Perform a persisted XSS attack with <script>alert("XSS")</script> bypassing a client-side security mechanism.
 * Submit a POST request to http://localhost:3000/api/Users with
 * Content-Type: application/json
