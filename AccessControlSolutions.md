@@ -20,10 +20,6 @@ Delete five-stars from the adminstration page
 Either edit input in the dom or intercept from `/api/Feedbacks/` with burp and change the `UserId` 
 
 
-## Change the href of the link within the O-Saft product description into http://kimminich.de.
-*come back*
-
-
 ## IDOR Solutions
 
 ## Access someone else's basket. JuiceShop
