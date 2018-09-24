@@ -90,6 +90,7 @@ Table: users
 
 
 ### Make Jsmith rich
+* This challenge chains a SQLi with an Idor vulnerability to transfer money from one persons account into jsmith's account
 * On the http://demo.testfire.net/bank/transaction.aspx page use the SQLi in the before date `1 or 1 = 1;--` 
 to view all transactions.   
 * Transactions going from account 20 and 21 seem to be automated. 
@@ -114,3 +115,5 @@ to view all transactions.
 </soap:Envelope>
 
 ```
+
+* This worked last week but wasn't working as of Monday if you see this `Server was unable to process request. ---> Could not find file 'C:\Windows\TEMP\twc6vagm.dll'.`, the app is broken not your exploit
