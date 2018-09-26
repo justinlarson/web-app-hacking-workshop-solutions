@@ -1,9 +1,10 @@
 
 # AltoroMutual
 ## Login
-* Use CommonUsernameList.txt
+* send login request to Intruder
+* Use CommonUsernameList.txt for username payload
 * Use grep options in intruder `Login Failed: Your password appears to be invalid.`
-* create list of altoro users
+* create list of altoro users to use for bruteforcing
 
 # Juice Shop
 ## User Registration
